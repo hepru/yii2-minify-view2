@@ -2,17 +2,17 @@
 /**
  * CSS.php
  * @author Revin Roman
- * @link https://rmrevin.com
+ * @link https://hepru.com
  */
 
-namespace rmrevin\yii\minify\components;
+namespace hepru\yii\minify\components;
 
 use yii\helpers\Html;
 use yii\helpers\Url;
 
 /**
  * Class CSS
- * @package rmrevin\yii\minify\components
+ * @package hepru\yii\minify\components
  */
 class CSS extends MinifyComponent
 {
