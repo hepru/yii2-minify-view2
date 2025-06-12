@@ -4,21 +4,21 @@ Yii 2 Minify View Component
 The main feature of this component - concatenate and compress files 
 connected through "AssetBundle".
 
-[![License](https://poser.pugx.org/rmrevin/yii2-minify-view/license.svg)](https://packagist.org/packages/rmrevin/yii2-minify-view)
-[![Latest Stable Version](https://poser.pugx.org/rmrevin/yii2-minify-view/v/stable.svg)](https://packagist.org/packages/rmrevin/yii2-minify-view)
-[![Latest Unstable Version](https://poser.pugx.org/rmrevin/yii2-minify-view/v/unstable.svg)](https://packagist.org/packages/rmrevin/yii2-minify-view)
-[![Total Downloads](https://poser.pugx.org/rmrevin/yii2-minify-view/downloads.svg)](https://packagist.org/packages/rmrevin/yii2-minify-view)
+[![License](https://poser.pugx.org/hepru/yii2-minify-view2/license.svg)](https://packagist.org/packages/hepru/yii2-minify-view2)
+[![Latest Stable Version](https://poser.pugx.org/hepru/yii2-minify-view2/v/stable.svg)](https://packagist.org/packages/hepru/yii2-minify-view2)
+[![Latest Unstable Version](https://poser.pugx.org/hepru/yii2-minify-view2/v/unstable.svg)](https://packagist.org/packages/hepru/yii2-minify-view2)
+[![Total Downloads](https://poser.pugx.org/hepru/yii2-minify-view2/downloads.svg)](https://packagist.org/packages/hepru/yii2-minify-view2)
 
 Code Status
 -----------
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/rmrevin/yii2-minify-view/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/rmrevin/yii2-minify-view/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/rmrevin/yii2-minify-view/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/rmrevin/yii2-minify-view/?branch=master)
-[![Travis CI Build Status](https://travis-ci.org/rmrevin/yii2-minify-view.svg)](https://travis-ci.org/rmrevin/yii2-minify-view)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hepru/yii2-minify-view2/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hepru/yii2-minify-view2/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/hepru/yii2-minify-view2/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hepru/yii2-minify-view2/?branch=master)
+[![Travis CI Build Status](https://travis-ci.org/hepru/yii2-minify-view2.svg)](https://travis-ci.org/hepru/yii2-minify-view2)
 [![Dependency Status](https://www.versioneye.com/user/projects/54119b4b9e1622a6510000e1/badge.svg)](https://www.versioneye.com/user/projects/54119b4b9e1622a6510000e1)
 
 Support
 -------
-[GutHub issues](https://github.com/rmrevin/yii2-minify-view/issues) or [public chat](https://gitter.im/rmrevin/support).
+[GutHub issues](https://github.com/hepru/yii2-minify-view2/issues) or [public chat](https://gitter.im/hepru/support).
 
 Installation
 ------------
@@ -28,13 +28,13 @@ The preferred way to install this extension is through [composer](https://getcom
 Either run
 
 ```bash
-composer require rmrevin/yii2-minify-view
+composer require hepru/yii2-minify-view2
 ```
 
 or add
 
 ```
-"rmrevin/yii2-minify-view": "^1.15",
+"hepru/yii2-minify-view2": "^1.0",
 ```
 
 to the `require` section of your `composer.json` file.
@@ -49,7 +49,7 @@ return [
 	'components' => [
 		// ...
 		'view' => [
-			'class' => '\rmrevin\yii\minify\View',
+			'class' => '\hepru\yii\minify\View',
 			'enableMinify' => !YII_DEBUG,
 			'concatCss' => true, // concatenate css
 			'minifyCss' => true, // minificate css
