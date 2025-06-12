@@ -1,5 +1,5 @@
 {
-  "name": "rmrevin/yii2-minify-view",
+  "name": "hepru/yii2-minify-view2",
   "description": "Yii2 View component with auto minification css & js in runtime",
   "keywords": [
     "yii2",
@@ -10,19 +10,6 @@
   ],
   "type": "yii2-extension",
   "license": "MIT",
-  "minimum-stability": "stable",
-  "support": {
-    "issues": "https://github.com/rmrevin/yii2-minify-view/issues?state=open",
-    "wiki": "https://github.com/rmrevin/yii2-minify-view/wiki",
-    "source": "https://github.com/rmrevin/yii2-minify-view"
-  },
-  "authors": [
-    {
-      "name": "Revin Roman",
-      "email": "roman@rmrevin.com",
-      "homepage": "https://rmrevin.com/"
-    }
-  ],
   "require": {
     "yiisoft/yii2": "^2.0",
     "mrclay/minify": "3.0.7",
@@ -35,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "rmrevin\\yii\\minify\\": ""
+      "hepru\\yii\\minify\\": ""
     }
   },
   "repositories": [
